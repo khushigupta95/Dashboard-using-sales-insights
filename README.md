@@ -1,28 +1,51 @@
-# Atiq Hardware Sales Analysis
+# Atliq Hardware : Dashboard Using Sales Insights
 
-## 📊 Project Overview
-This project analyzes sales data for Atiq Hardware using Power BI to provide insights into sales trends, revenue performance, and customer purchasing behavior.
-The report helps in making data-driven decisions for business growth.
+## Project Overview
+This project focuses on analyzing sales data and creating an interactive dashboard to visualize key business insights.
 
-## 🔥 Features
-- **Sales Performance Dashboard**: Visualizes total sales, revenue trends, and top-performing products.
-- **Customer Insights**: Identifies key customers and their purchasing patterns.
-- **Time-Based Analysis**: Examines sales trends over months and years.
-- **Product Performance**: Highlights best-selling and underperforming products.
-- **Interactive Reports**: Users can filter and explore data dynamically.
+## Tools Used
+- Microsoft Power BI
+- SQL
 
-## 📈 Conclusions & Recommendations
-- **Expand High-Performing Product Lines**
-Focus on the best-selling products and optimize inventory for higher availability.
+## Files Included
+- <a href="https://github.com/khushigupta95/Dashboard-using-sales-insights/blob/main/Atiq_Hardware_sales_analysis.pbix">Power BI File</a> – Power BI dashboard file.
+- <a href="https://github.com/khushigupta95/Dashboard-using-sales-insights/blob/main/db_dump.sql">SQL Dump</a> – SQL queries used for data extraction and transformation.
 
-- **Improve Sales in Low-Performing Regions**
-Target underperforming areas with localized marketing campaigns and promotions.
 
-- **Enhance Customer Retention Strategies**
-Offer loyalty programs and personalized discounts to encourage repeat purchases.
+## Dashboard Screenshots
+![Dashboard Overview](https://github.com/khushigupta95/Dashboard-using-sales-insights/blob/main/Screenshot%20(30).png)
+![Sales Insights](https://github.com/khushigupta95/Dashboard-using-sales-insights/blob/main/Screenshot%20(31).png)
+![Detailed Analysis](https://github.com/khushigupta95/Dashboard-using-sales-insights/blob/main/Screenshot%20(32).png)
 
--**Optimize Pricing for Low-Selling Products**
-Review pricing strategies and consider bundling underperforming items with popular products.
 
--**Data-Driven Decision Making**
-Continuously monitor sales trends and adjust strategies based on real-time insights.
+## Steps Performed
+
+### 1. Data Collection and Preparation
+- Imported sales dataset into Power BI.
+- Cleaned and structured data to ensure consistency.
+- Extracted and transformed data using SQL for better data management.
+
+### 2. SQL Usage
+- Used SQL queries to filter, aggregate, and join tables efficiently.
+- Performed data transformations such as calculating total sales, revenue, and customer segmentation using SQL functions.
+- Optimized data retrieval by writing efficient SQL queries before loading into visualization tools.
+
+### 3. Data Transformation
+- Created relationships between tables.
+- Applied data modeling and used calculated columns/measures using DAX in Power BI.
+
+### 4. Dashboard Creation
+- Designed an interactive dashboard with key sales KPIs.
+- Used bar charts, line graphs, pie charts, and KPI cards to present insights.
+
+### 5. Interactivity and Filtering
+- Added slicers and filters for dynamic data analysis.
+- Implemented drill-through and tooltips for deeper insights.
+
+### 6. Final Review and Optimization
+- Ensured data accuracy and optimized dashboard performance.
+- Published the final dashboard for reporting and decision-making.
+
+
+## Conclusion
+SQL played a crucial role in data extraction, and Power BI was utilized for visualization. This project successfully visualizes sales data, providing actionable insights to drive business decisions through interactive dashboards.
